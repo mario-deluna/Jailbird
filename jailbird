@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+/**
+ * This is the command line interface of the video service
+ */
+require __DIR__ . "/vendor/autoload.php";
+
+use Jailbird\Encoder;
+use Jailbird\Decoder;
+use Jailbird\Image;
+
+$script = array_shift( $argv );
+$command = array_shift( $argv );
+
+if ( $command === 'encode' )
+{
+	$encoder = new Encoder( Image::path( __DIR__.'/example.jpg' ) );
+	
+	$encoder->encode( 'Hello World this is amazing!!' );
+}
+elseif ( $command === 'decode' )
+{
+	$decoder = new Decoder( Image::path( __DIR__.'/jail.png' ) );
+	
+	$decoder->decode();
+}
