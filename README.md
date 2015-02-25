@@ -1,6 +1,6 @@
 # Jailbird
 
-Did you ever found yourself stuck in jail and needed to send out some information to run your business, without the guardians noticing? Well than this library is the solution you have been looking for!
+> Did you ever found yourself stuck in jail and needed to send out some information to run your business, without the guardians noticing? Well than this library is the solution you have been looking for!
 
 Obviously im joking, this thing is an experiment and I would have to lie if I told you I wasn't drunk when I had the idea.
 
