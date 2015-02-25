@@ -56,7 +56,7 @@ class Encoder
 				{
 					if ( !isset( $chars[$index] ) )
 					{
-						continue;	
+						break 2;	
 					}
 					
 					$char = $chars[$index];
