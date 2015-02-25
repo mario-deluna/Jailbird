@@ -1,7 +1,18 @@
 {
-	"require":
-	{
-	},
+	"name": "mario-deluna/jailbird",
+	"type": "library",
+	"description": "Jailbird allows you to store secret information inside an image.",
+	"version": "1.0.0",
+	"keywords": [ "secret", "crypt", "serialization" ],
+	"homepage": "https://github.com/mario-deluna/Jailbird",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mario Döring",
+			"homepage": "http://clancats.ch",
+			"role": "Developer"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"Jailbird\\": "src/"
