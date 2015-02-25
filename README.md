@@ -4,7 +4,7 @@
 
 Obviously im joking, this thing is an experiment and I would have to lie if I told you I wasn't drunk when I had the idea.
 
-**What the heck?***
+**What the heck?**
 
 This library allows you to write data basically on every pixel of a given picture without destroying it. You really won't notice much maybe some unsharp edges.
 
